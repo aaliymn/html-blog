@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste Biçimlendirme</title>
+    <style>
+      ul {
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.663);
+        border-radius: 8px;
+        width: 250px;
+        padding: 20px;
+        background-color: lightskyblue;
+        transition: 0.2s;
+      }
+      ul:hover {
+        transform: scale(1.0008);
+        box-shadow: 0px 0px 20px rgba(0, 58, 87, 0.8);
+      }
+      li {
+        color: black;
+        cursor: default;
+        padding: 5px;
+        background-color: rgba(137, 43, 226, 0.232);
+        margin: 10px;
+        border-radius: 8px;
+        border-left: 5px solid rgb(62, 62, 62);
+        list-style-type: none;
+        transition: 0.2s;
+        box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.412);
+      }
+      li:hover {
+        transform: scale(1.05);
+        box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.363);
+      }
+      a {
+        color: inherit;
+        cursor: inherit;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <a href="http://www.google.com"><li>Android</li></a>
+      <li>Android iOS</li>
+      <li>Python 0'dan Uzmana</li>
+    </ul>
+  </body>
+</html>
