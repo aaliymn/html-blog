@@ -1,0 +1,54 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  float: left;
+  background: linear-gradient(to right, #cb2d3e, #ef473a);
+  color: white;
+  user-select: none;
+}
+nav h2 {
+  font-size: 2.6rem;
+  margin: 1rem;
+  padding: 1rem;
+  display: inline-block;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 1rem;
+  padding: 0;
+}
+nav ul li {
+  font-size: 2.6rem;
+  float: left;
+  margin: 1rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+header {
+  background-color: rgb(51, 51, 51);
+  height: 1000px;
+  padding-top: calc(69.6px + 6rem);
+  text-align: center;
+  color: white;
+}
+.avatar {
+  max-width: 30rem;
+  height: auto;
+}
+#headh {
+  font-size: 5rem;
+}
