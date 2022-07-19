@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,9 +14,9 @@
     />
     <link rel="stylesheet" href="/proj2/style.css" />
   </head>
-  <body>
-    <nav>
-      <h2>Web Developer</h2>
+  <body class="noselect">
+    <nav class="noselect">
+      <h2>GAMES THAT I PLAY!</h2>
       <ul>
         <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
@@ -23,8 +24,99 @@
       </ul>
     </nav>
     <header>
-      <img src="/proj2/img/avatar.png" class="avatar" alt="avatar" />
-      <h1 id="headh">&lt Web Developer &gt</h1>
+      <div class="container">
+        <img src="/proj2/img/avatar.png" class="avatar" alt="avatar" />
+        <h1 id="headh">&lt Gamer &gt</h1>
+        <hr class="star-light" />
+        <h2>Games - Games - GAMES!</h2>
+      </div>
     </header>
+    <section id="section-a">
+      <h2 class="textcenter">Portfolio</h2>
+      <p class="textcenter" id="sect-a-desc">List of games that I've played.</p>
+      <div id="posters">
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/gtav.jpg" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/tf2.jpg" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/ksp.jpg" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/tlou.png" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/mgs3.png" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="item">
+            <img src="/proj2/img/shill.png" alt="" />
+            <div class="overlay">
+              <div class="game-desc">
+                <h2 class="textcenter">GAME</h2>
+                <p class="textcenter">Lorem ipsum dolor sit amet.</p>
+                <a href=""><i class="fa-solid fa-info"></i> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section id="about" class="textcenter">
+      <h2>About</h2>
+      <p>
+        This page is simply about the games that I've played. Simply hover your
+        mouse over one of the game's poster to see a brief info about the game. (WIP) <br />
+        Have game recommendations? You can use this button to send it to me!
+        (WIP)
+      </p>
+      <button id="sendgame">Send Game</button>
+    </section>
   </body>
 </html>
